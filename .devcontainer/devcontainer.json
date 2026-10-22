@@ -3,6 +3,13 @@
   "hostRequirements": {
     "cpus": 4
   },
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": {
+      "label": "Study Group Crew",
+      "onAutoForward": "notify"
+    }
+  },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "",

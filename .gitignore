@@ -1,3 +1,11 @@
 notebooks/data
 notebooks/cifar_net.pth
 .ipynb_checkpoints/
+__pycache__/
+.env
+.env.*
+!.env.example
+/outputs/study_history.json
+/outputs/study_reports/
+/outputs/study_groups.json
+/outputs/group_uploads/
